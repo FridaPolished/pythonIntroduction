@@ -36,8 +36,9 @@ print(round(3.7))# returns 4
 print(round(3.7, 1)) #returns 3.8
 
 # casting
-num_1 = 100
-num_2 = 200
+num_1 = '100'
+num_2 = '200'
 num_1 = int(num_1)
 num_2 = int(num_2)
-print(num_1 + num_2)
+print(num_1 + num_2) #without the conversion to an integer te return value
+#would be a string concatenation  (100200) instead of the sum.
